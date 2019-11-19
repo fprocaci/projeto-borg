@@ -1,0 +1,61 @@
+/*
+*
+* @author Fabrício Procaci
+* @version 0.1
+*
+*/
+
+/*========================= LAYOUT ============================*/
+
+/* -- BARRA DE NAVEGEÇÃO -- */
+.img-logo{
+	height:40px;
+	width:150px;
+    display: block;
+	background: url("../LogoBorgInfo/Borginfo.svg") no-repeat;
+	display: block;
+	background-size: contain;
+	color:transparent;
+}
+
+nav.navbar-transparente{
+    padding: 0;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+    margin: 7px 0;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+    padding: 25px 15px;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #32CD32;
+    background-color:#595959;
+    
+}
+
+.whatts-tel{
+    font-size: 1.3em;
+}
+
+.navbar-text {
+  margin: 0px;  
+}
+
+
+
+/*========================= TIPOGRAFIA ==========================*/
+
+.fa-whatsapp{
+	color:green;
+	margin-right: 5px;
+}
